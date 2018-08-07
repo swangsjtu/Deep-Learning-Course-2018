@@ -51,14 +51,15 @@ jupyter notebook --port=5000
 
 
 ---
-# Assignment 1
+# Assignment 1, Basic ideas about neural network
 Following the instructions in the .ipynb files, complete the corresponding scripts
+
 two_layer_net.ipynb => softmax.ipynb
 
 ---
 
-# Assignment 2
-The environment is similiar to Assignment 1
+# Assignment 2, Advanced modules in neural networks.
+The environment is similiar to Assignment 1, Following the instructions in the .ipynb files, complete the corresponding scripts
 
 FullyConnectedNets.ipynb => BatchNormalization.ipynb => Dropout.ipynb => ConvolutionalNetworks.ipynb
 
