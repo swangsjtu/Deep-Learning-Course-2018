@@ -2,8 +2,7 @@
 
 
 
-
-# Assignment 1
+# Environment preparation
 Required tools: Python 2.7+, Jupyter Notebook.
 
 ## Setup your workspace locally.
@@ -25,7 +24,7 @@ pip install -r requirements.txt  # Install dependencies
 deactivate                       # Exit the virtual environment
 ```
 
-You can install the missing packages according to the error information!!!
+**You can install the missing packages according to the error information!!!**
 
 ### Step 2
 
@@ -51,6 +50,10 @@ jupyter notebook --port=5000
 **[NOTE]:** If you are working in a virtual environment on OSX, you may encounter errors with matplotlib due to the issues described [here](http://matplotlib.org/faq/virtualenv_faq.html). You can work around this issue by starting the IPython server using the `start_ipython_osx.sh` script from the `assignment1` directory; the script assumes that your virtual environment is named `.env`.
 
 
+---
+# Assignment 1
+Following the instructions in the .ipynb files, complete the corresponding scripts
+two_layer_net.ipynb => softmax.ipynb
 
 ---
 
