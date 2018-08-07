@@ -34,6 +34,7 @@ cd cs231n/datasets
 ./get_datasets.sh
 ```
 
+
 ### Step 3
 **[Start Jupyter Notebook]:** After you have the CIFAR-10 data, you should start the Jupyter notebook server from the `assignment1` directory. If you are unfamiliar with Jupyter, you can refer to [Installing Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/install.html) and [Running the Notebook](https://jupyter.readthedocs.io/en/latest/running.html#running).
 
