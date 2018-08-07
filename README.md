@@ -23,10 +23,12 @@ source .env/bin/activate         # Activate the virtual environment
 pip install -r requirements.txt  # Install dependencies
 # Work on the assignment for a while ...
 deactivate                       # Exit the virtual environment
+```
 
 You can install the missing packages according to the error information!!!
 
 ### Step 2
+
 **[Download data]:** Once you have the starter code, you will need to download the CIFAR-10 dataset. Run the following from the `assignment1` directory:
 
 ```bash
