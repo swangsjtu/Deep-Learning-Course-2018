@@ -1,45 +1,9 @@
-## Presentation 2
-
-# Deadlines
-Assignment1: `12/07 23:59`(Please update collectSubmission.sh to avoid including the virtual env.)
-
-**Assignment2: `01/03 23:59 `**
-
-FullyConnectedNets.ipynb => BatchNormalization.ipynb => Dropout.ipynb => ConvolutionalNetworks.ipynb
-
-# Final Project:
-
-A PDF is uploaded to the GitHub describing the task. The data and the script are on the FTP server and you can download the .zip file. (toy_read_py3.py is provided by 陈欣昊.)
-
-The results based on the small training set must be provided, whereas results obtained based on the big training set are optional.
-
-**Final scores will be given according to the performances on the evaluation set (refers to the folder ./eval). However, the evaluation set shouldn't be used before the completion of training. That is to say, it is cheating if you use the evaluation set to train your model or choose the optimal model according to the performances on the evaluation set. We will give serious punishment if such behaviors are found.**
-
-## Submission: (before 01/10)
-
-The source codes of your project
-
-The output file on the evaluation set (refers to toy_read.py)
-
-A PDF report in English(including task definition, detailed approach, analysis and so on)
 
 
-## Score Structure:
 
-The quality of your report(50%)
 
-Results on the evaluation set(20%) + the rank in the class(10%)
 
-Using several DL frameworks(TensorFlow, Pytorch, MXNet, Caffe and so on)(including comparisons of speed, performance in the report) (20% for 2 and a bouns 5% if you use 3 frameworks)
-
-# Introduction
-
- DeepLearning Course Home Page: [https://speechlab.sjtu.edu.cn/~kyu/node/10](https://speechlab.sjtu.edu.cn/~kyu/node/10)
-
-These assignments are retrieved and modified from the assignments of [CS231n](http://cs231n.github.io/). Some contents are deleted from their assignments and we also extended additional contents according to needs of our DeepLearning Course.
-
-For each assignment, you should complete and hand in completed worksheet (including its outputs and any supporting code outside of the worksheet) with your assignment submission. If you encounter any difficulties, you may refer to the course notes of [CS231n](http://cs231n.github.io/) to get some inspiration.
-
+# Assignment 1
 Required tools: Python 2.7+, Jupyter Notebook.
 
 ## Setup your workspace locally.
@@ -59,18 +23,8 @@ source .env/bin/activate         # Activate the virtual environment
 pip install -r requirements.txt  # Install dependencies
 # Work on the assignment for a while ...
 deactivate                       # Exit the virtual environment
-```
-if you meet the same situation in [issue#4](https://github.com/caodi0207/Deep-Learning-Course-2017/issues/4), you could try the following scripts before installing the requirements. (Thanks for [Kipsora](https://github.com/Kipsora)'s contribution)
 
-```bash
-sudo apt install pkg-config
-sudo apt install libncurses5-dev
-sudo apt install libjpeg-dev
-sudo apt install libfreetype6-dev
-sudo apt install blt-dev
-```
-
-
+You can install the missing packages according to the error information!!!
 
 ### Step 2
 **[Download data]:** Once you have the starter code, you will need to download the CIFAR-10 dataset. Run the following from the `assignment1` directory:
@@ -94,11 +48,16 @@ jupyter notebook --port=5000
 **[NOTE]:** If you are working in a virtual environment on OSX, you may encounter errors with matplotlib due to the issues described [here](http://matplotlib.org/faq/virtualenv_faq.html). You can work around this issue by starting the IPython server using the `start_ipython_osx.sh` script from the `assignment1` directory; the script assumes that your virtual environment is named `.env`.
 
 
-## Submit your work.
 
-Once you are done working run the collectSubmission.sh script; this will produce a file called `assignment1.zip`. Rename it to `StudentID-StudentName-AssignmentID.zip`(for example, `12345-小明-as1.zip`). 
+---
 
-Upload your assignments to corresponding folder in `http://202.120.38.125:9999`. Public account: `test`/`test`.
-```bash
-Please refer to "上传说明.txt" on the website.
-```
+# Assignment 2
+The environment is similiar to Assignment 1
+
+FullyConnectedNets.ipynb => BatchNormalization.ipynb => Dropout.ipynb => ConvolutionalNetworks.ipynb
+
+# Submit your work.
+
+Once you are done working run the collectSubmission.sh script; this will produce a file called `assignment1.zip`. Rename it to `AssignmentID.zip`(for example, `小明-as1.zip`). 
+
+Send your zip file to Shengnan Ding via Wechat or Email (shengnan.ding@aispeech.com)
