@@ -54,7 +54,7 @@ jupyter notebook --port=5000
 # Assignment 1, Basic ideas about neural network
 Following the instructions in the .ipynb files, complete the corresponding scripts
 
-two_layer_net.ipynb => softmax.ipynb
+softmax.ipynb => two_layer_net.ipynb
 
 ---
 
